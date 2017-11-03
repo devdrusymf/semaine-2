@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    
+  
+    <div class="champ">
+        <input type="text" readonly="readonly" id="ecran">
+    </div>
+    <div id="clavier">
+        <input type="button" class="btn chiffre" value="7">
+        <input type="button" class="btn chiffre"  value="8">
+        <input type="button" class="btn chiffre" value="9">
+        <input type="button" class="btn operateur" value="*">
+        <input type="button" class="btn chiffre" value="4">
+        <input type="button" class="btn chiffre" value="5">
+        <input type="button" class="btn chiffre" value="6">
+        <input type="button" class="btn operateur" value="-">
+        <input type="button" class="btn chiffre" value="1">
+        <input type="button" class="btn chiffre" value="2">
+        <input type="button" class="btn chiffre" value="3">
+        <input type="button" class="btn operateur" value="+">
+        <input type="button" class="btn chiffre" value="+/-">
+        <input type="button" class="btn chiffre" value="0">
+        <input type="button" class="btn chiffre" value=",">
+        <input type="button" class="btn operateur" value="=">
+    </div>
+    
+
+<div id="vert" class="vert"></div>
+<div id="bleu" class="bleu"></div>
+
+
+    <div class="slider">
+        <button>précédant</button>
+        <button>suivant</button>
+    </div>
+
+    <div id="carre">
+        <div id="carre-un" class="noir"></div>
+        <div id="carre-deux" class="vert-lite"></div>
+        <div id="carre-trois" class="rouge"></div>
+    </div>
+
+   <div id="test">
+
+   </div>
+
+   <button id="get-auteur">Recuperer auteurs</button>
+
+
+    <script src="calculatrice.js"></script>
+    <script src="boot.js"></script>
+</body>
+</html>

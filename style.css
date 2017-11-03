@@ -1,0 +1,76 @@
+#clavier {
+ 
+  height: 200px;
+  width: 400px;
+}
+
+
+#ecran
+{
+    border: 1px solid black;
+    border-bottom-width: 2px;
+    height:  50px;
+    width:  330px;
+
+}
+
+
+.btn {
+    border: 2px solid gray;
+    background-color: white;
+    height: 50px;
+    width:  80px;
+
+}
+
+.btn:hover{
+
+    background-color: lightslategray
+
+    
+}
+
+
+
+
+.bleu {
+   background-color: blue;
+   width: 100px;
+   height: 100px;
+   border: 1px solid black;
+   margin: 5px;
+}
+
+.vert{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+
+
+.noir {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+ }
+
+.vert-lite {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.rouge {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+}
